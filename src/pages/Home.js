@@ -9,6 +9,7 @@ export const Home = () => {
 
     useEffect(() => {
         fetchNotes()
+        setInterval(() => {fetchNotes(true)}, 1500)
         // eslint-disable-next-line
     },[])
 
