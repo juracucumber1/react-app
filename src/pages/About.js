@@ -4,7 +4,7 @@ export const About = () => (
     <div className="jumbotron ">
         <div className="container">
             <dl className="row">
-                <dt className="col-sm-12">Самое легендарное приложение в мире, eго написал Juracucumber.</dt>
+                <dt className="col-sm-12"><h4>Самое легендарное приложение в мире, eго написал Juracucumber. </h4></dt>
 
 
                 <dt className="col-sm-3">Мои ссылки:</dt>
