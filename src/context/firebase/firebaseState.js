@@ -44,8 +44,7 @@ export const FirebaseState = ({children}) => {
             }
 
             dispatch({type: ADD_NOTE, payload})
-
-
+            fetchNotes(true)
         } catch (e) {
             throw new Error(e.message)
         }
