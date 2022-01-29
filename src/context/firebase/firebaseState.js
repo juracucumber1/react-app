@@ -16,6 +16,7 @@ export const FirebaseState = ({children}) => {
     const showLoader = () => dispatch({type: SHOW_LOADER})
 
     const fetchNotes =  async (a) => {
+
         if (!a) {
             showLoader()
         }
@@ -27,6 +28,7 @@ export const FirebaseState = ({children}) => {
                 id: key
             }
         })
+            .reverse()
         dispatch({type: FETCH_NOTES, payload})
     }
 
