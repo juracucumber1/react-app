@@ -3,11 +3,37 @@ import React from 'react'
 export const About = () => (
     <div className="jumbotron ">
         <div className="container">
-            <h1 className="display-3">Самый легендарный сайт в мире. Его написал Я Жура Кукумбер </h1>
-            <h2 className="display-4">Мой Git: 'https://github.com/juracucumber1'</h2>
-            <h2 className="display-4">Мой Instagram: 'https://www.instagram.com/juracucumber/' </h2>
-            <h3 className="display-4">Желаемая ставка: 150р/час. </h3>
+            <dl className="row">
+                <dt className="col-sm-12">Самое легендарное приложение в мире, eго написал Juracucumber.</dt>
+
+
+                <dt className="col-sm-3">Мои ссылки:</dt>
+
+                <dd className="col-sm-3">
+                    <a href="https://github.com/juracucumber1" target="_blank">Мой Git</a>
+                </dd>
+
+                <dd className="col-sm-3">
+                    <a href="https://www.instagram.com/juracucumber/" target="_blank">Мой Instagram</a>
+                </dd>
+
+                <dt className="col-sm-12">Желаемая ставка: 150р/час.</dt>
+
+
+            </dl>
             <p className="lead">Версия приложения: <strong>2.2.8</strong></p>
         </div>
     </div>
 )
+
+//
+// Самый легендарный сайт в мире. Его написал Я Жура Кукумбер
+//
+//
+// Мой Git: 'https://github.com/juracucumber1'
+//
+// Мой Instagram: 'https://www.instagram.com/juracucumber/'
+//
+// >Желаемая ставка: 150р/час.
+
+// <a href="url">link text</a>
