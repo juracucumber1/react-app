@@ -17,7 +17,7 @@ export const About = () => (
                     <a href="https://www.instagram.com/juracucumber/" target="_blank">Мой Instagram</a>
                 </dd>
 
-                <dt className="col-sm-12">Готов работать бесплатно !!! </dt>
+                <dt className="col-sm-12">Не готов работать бесплатно !!! </dt>
 
 
             </dl>
